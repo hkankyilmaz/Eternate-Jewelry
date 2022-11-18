@@ -1,22 +1,22 @@
 {
-  "name": "eternate-jewelry",
+  "name": "kutez-shopify",
   "version": "1.0.0",
-  "description": "e -commerce website based on Shopify",
+  "description": "e-com website based on Shopfiy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hkankyilmaz/Eternate-Jewelry.git"
+    "url": "git+https://github.com/hkankyilmaz/Kutez-Shopify.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hkankyilmaz/Eternate-Jewelry/issues"
+    "url": "https://github.com/hkankyilmaz/Kutez-Shopify/issues"
   },
-  "homepage": "https://github.com/hkankyilmaz/Eternate-Jewelry#readme",
+  "homepage": "https://github.com/hkankyilmaz/Kutez-Shopify#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",

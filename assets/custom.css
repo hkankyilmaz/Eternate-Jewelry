@@ -1,0 +1,32 @@
+/* @font-face {
+  font-family: "Emilea";
+  src: url("Emilea.woff2") format("woff2"), url("Emilea.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+#myBtn {
+  display: none !important;
+
+}
+#swym-component-container
+  > div.swym-wishlist-modal-container.swym-ui-component.swym-is-safari
+  > div
+  > div
+  > div.swym-modal-content
+  > div
+  > div.swym-simple-wishlist-container-content
+  > div
+  > div.swym-wishlist-detail-content
+  > div
+  > a
+  > button.swym-add-to-cart-btn.swym-button.swym-button-1.swym-is-button.swym-bg-2.swym-color-4.swym-is-button {
+  text-transform: capitalize;
+  font-weight: bold !important;
+}
+
+.swym-button-bar {
+  margin: 0 10px !important;
+  display: inline-block;
+}

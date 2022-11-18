@@ -1,0 +1,15 @@
+development:
+  password: shptka_fdf31969861c5925caf13df3dcf8e379
+  theme_id: "131730374807"
+  store: riverdiamond.myshopify.com
+production:
+  password: shptka_fdf31969861c5925caf13df3dcf8e379
+  theme_id: "456"
+  store: riverdiamond.myshopify.com
+  timeout: 60s
+  readonly: true
+test:
+  password: shptka_fdf31969861c5925caf13df3dcf8e379
+  theme_id: "789"
+  store: riverdiamond.myshopify.com
+  ignores: ignore.txt

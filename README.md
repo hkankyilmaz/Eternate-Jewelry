@@ -1,2 +1,2 @@
-# Eternate-Jewelry
- e -commerce website based on Shopify
+# Kutez-Shopify
+ e-com website based on Shopfiy

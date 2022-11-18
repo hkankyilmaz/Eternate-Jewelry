@@ -1,60 +1,534 @@
 {
   "current": {
+    "heading_color": "#2f2f2f",
+    "text_color": "#2f2f2f",
+    "text_light_color": "#2f2f2f",
+    "link_color": "#2f2f2f",
+    "background": "#ffffff",
+    "light_background": "#efefef",
+    "product_on_sale_color": "#e22120",
+    "button_background": "#2f2f2f",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#2f2f2f",
+    "header_light_color": "#2f2f2f",
+    "footer_background": "#ffffff",
+    "footer_heading_color": "#2f2f2f",
+    "footer_text_color": "#2f2f2f",
+    "navigation_background": "#fff0e7",
+    "navigation_text_color": "#2f2f2f",
+    "newsletter_popup_background": "#2f2f2f",
+    "newsletter_popup_text_color": "#f8edeb",
+    "secondary_elements_background": "#2f2f2f",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "montserrat_n4",
+    "heading_size": "small",
+    "uppercase_heading": true,
+    "text_font": "questrial_n4",
+    "base_text_font_size": 13,
+    "show_page_transition": true,
+    "show_button_transition": true,
+    "search_mode": "product,article,page",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": false,
+    "product_info_alignment": "left",
+    "product_image_size": "square",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "social_facebook": "03045Ehttps://www.facebook.com/eternatejewelry",
+    "social_pinterest": "https://www.pinterest.com/eternatejewelry",
+    "social_instagram": "https://www.instagram.com/eternatejewelry/",
+    "social_youtube": "https://www.youtube.com/channel/UC0cmGq4S_8j7wqy5Ps7dUjQ",
+    "favicon": "shopify://shop_images/Logo_cropped.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#efefef",
+    "checkout_accent_color": "#1c1b1b",
+    "checkout_button_color": "#1c1b1b",
     "sections": {
-      "collection-list": {
-        "type": "collection-list",
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "limited-main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#1c1b1b",
+          "text_color": "#ffffff",
+          "content": "15% SALE SITEWIDE - USE THE CODE \"15OFF\" AT THE CHECKOUT",
+          "content-two": "SPEND $1500 GET 25% OFF - APPLIED AT CHECKOUT",
+          "content-three": "SPEND $2500 GET 30% OFF - APPLIED AT CHECKOUT",
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
         "blocks": {
-          "collection-list-0": { "type": "collection", "settings": {} },
-          "collection-list-1": { "type": "collection", "settings": {} },
-          "collection-list-2": { "type": "collection", "settings": {} }
+          "da8c5474-323c-449d-9614-8b79b3748ae5": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Wedding bands",
+              "push_1_image": "shopify://shop_images/BD01-14K-Y-S_Fashion.jpg",
+              "push_1_heading": "",
+              "push_1_subheading": "",
+              "push_1_url": "https://eternate.com/collections/plain-wedding-bands",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          },
+          "a436e91e-e1e3-455d-a129-49a4639434e9": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Engagement Rings",
+              "push_1_image": "shopify://shop_images/mega_menu_engagement_rings.jpg",
+              "push_1_heading": "",
+              "push_1_subheading": "",
+              "push_1_url": "https://eternate.com/collections/engagement-rings",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          },
+          "8b24b5d4-3d87-41b7-a15d-4a652e40d63e": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Jewelry",
+              "push_1_image": "shopify://shop_images/mega_menu_-_jewelry.jpg",
+              "push_1_heading": "",
+              "push_1_subheading": "",
+              "push_1_url": "https://eternate.com/collections/jewelry",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          },
+          "4035fec8-218e-4c21-96be-21399922c07c": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Birthstone",
+              "push_1_image": "shopify://shop_images/12_1.jpg",
+              "push_1_heading": "",
+              "push_1_subheading": "",
+              "push_1_url": "shopify://collections/birthstone-jewelry",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          }
         },
         "block_order": [
-          "collection-list-0",
-          "collection-list-1",
-          "collection-list-2"
+          "da8c5474-323c-449d-9614-8b79b3748ae5",
+          "a436e91e-e1e3-455d-a129-49a4639434e9",
+          "8b24b5d4-3d87-41b7-a15d-4a652e40d63e",
+          "4035fec8-218e-4c21-96be-21399922c07c"
         ],
-        "settings": {}
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "shopify://shop_images/Untitled-2-01_1.png",
+          "logo_max_width": 180,
+          "mobile_logo_max_width": 150,
+          "show_country_selector": false,
+          "show_locale_selector": false,
+          "navigation_menu": "limited-main-menu",
+          "navigation_style": "center",
+          "show_icons": true,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": true,
+          "transparent_text_color": "#ffffff"
+        }
       },
-      "featured-collection": {
-        "type": "featured-collection",
-        "settings": { "collection": "frontpage" }
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "About the shop",
+              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+              "show_social_media": true
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "disabled": true,
+            "settings": { "menu": "footer" }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+            }
+          },
+          "f42dedc6-a385-466f-99de-df9d5fc88319": {
+            "type": "links",
+            "settings": { "menu": "services" }
+          },
+          "2e865501-ba84-4eb5-8ed2-31897a8479e2": {
+            "type": "links",
+            "settings": { "menu": "education" }
+          },
+          "ac51e7f7-a6cc-4137-82d9-2f55a4554ffa": {
+            "type": "links",
+            "settings": { "menu": "about-us" }
+          },
+          "bdaaea89-95ea-4f43-876e-145081aeebd4": {
+            "type": "links",
+            "settings": { "menu": "footer" }
+          },
+          "a3ea5971-039d-4081-8864-87c53a0242c0": {
+            "type": "text",
+            "settings": {
+              "title": "Contact Info",
+              "content": "<p>19 West 34th Street Suite 1018</p><p>New York, NY 10001</p><p><strong>PHONE: </strong><a href=\"tel:0018339464422\" title=\"tel:0018339464422\">+1 (833) 946 44 22</a></p><p><strong>EMAIL:</strong> <a href=\"mailto:service@eternate.com\" target=\"_blank\" title=\"mailto:service@eternate.com\">service@eternate.com</a></p>",
+              "show_social_media": true
+            }
+          },
+          "ec7ea7d1-1bbb-4d2b-b648-dd282ec47e56": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "Follow us in social media",
+              "content": "",
+              "show_social_media": true
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2",
+          "f42dedc6-a385-466f-99de-df9d5fc88319",
+          "2e865501-ba84-4eb5-8ed2-31897a8479e2",
+          "ac51e7f7-a6cc-4137-82d9-2f55a4554ffa",
+          "bdaaea89-95ea-4f43-876e-145081aeebd4",
+          "a3ea5971-039d-4081-8864-87c53a0242c0",
+          "ec7ea7d1-1bbb-4d2b-b648-dd282ec47e56"
+        ],
+        "settings": {
+          "show_payment_methods": true,
+          "show_country_selector": false,
+          "show_locale_selector": false
+        }
       },
-      "featured-product": { "type": "featured-product", "settings": {} }
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": false,
+          "show_only_on_index": true,
+          "show_only_for_visitors": false,
+          "show_only_once": true,
+          "title": "Popup",
+          "content": "<p>You can use this popup to display some useful information to your customers.</p>",
+          "show_newsletter": true,
+          "apparition_delay": 3
+        }
+      }
     },
-    "content_for_index": [
-      "collection-list",
-      "featured-collection",
-      "featured-product"
-    ]
+    "content_for_index": []
   },
   "presets": {
-    "Default": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
       "sections": {
-        "collection-list": {
-          "type": "collection-list",
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": { "primary_menu": "main-menu", "show_social_media": true }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
           "blocks": {
-            "collection-list-0": { "type": "collection", "settings": {} },
-            "collection-list-1": { "type": "collection", "settings": {} },
-            "collection-list-2": { "type": "collection", "settings": {} }
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+              }
+            }
           },
-          "block_order": [
-            "collection-list-0",
-            "collection-list-1",
-            "collection-list-2"
-          ],
-          "settings": {}
+          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "settings": { "show_payment_methods": true }
+        }
+      }
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": { "primary_menu": "main-menu", "show_social_media": true }
         },
-        "featured-collection": {
-          "type": "featured-collection",
-          "settings": { "collection": "frontpage" }
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
         },
-        "featured-product": { "type": "featured-product", "settings": {} }
-      },
-      "content_for_index": [
-        "collection-list",
-        "featured-collection",
-        "featured-product"
-      ]
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+              }
+            }
+          },
+          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "settings": { "show_payment_methods": true }
+        }
+      }
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": { "primary_menu": "main-menu", "show_social_media": true }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": { "type": "links", "settings": { "menu": "footer" } },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
+              }
+            }
+          },
+          "block_order": ["footer-0", "footer-1", "footer-2"],
+          "settings": { "show_payment_methods": true }
+        }
+      }
     }
   }
 }

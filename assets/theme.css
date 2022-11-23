@@ -11253,6 +11253,9 @@ shopify-payment-terms {
     max-width: 880px;
     margin: 0 auto;
   }
+  .FeaturedProduct a {
+    width:100%;
+  }
 
   .FeaturedProduct--center {
     align-items: center;
